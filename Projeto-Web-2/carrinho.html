@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>WannaCry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!--Import Google Icon Font-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/libraries/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/libraries/materialize/css/materialize.css">
+    <link rel="stylesheet" href="assets/resources/styles/style.css">
+
+    <script src="assets/libraries/jquery/jquery-2.2.4.min.js"></script>
+    <script src="assets/libraries/materialize/js/materialize.js"></script>
+    <script src="assets/resources/scripts/common.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <nav>
+                <div class="nav-wrapper navbar-fixed blue">
+                    <a href="index.html" class="logo-nav brand-logo white-text">WannaCryShop</a>
+                    <a href="#" data-target="show-on-large" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+                    <ul class="hide-on-med-and-down right">
+                        <li>
+                            <div class="left row">
+                                <div class="col s12 ">
+                                    <div class="row" id="topbarsearch">
+                                        <div class="input-field col s6 s12 white-text">
+                                            <i class="material-icons left prefix">search</i>
+                                            <input type="text" placeholder="search" id="autocomplete-input" class="input-field autocomplete white-text">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <div class="left hide-on-med-and-down user-area white-text">
+                            <ul>
+                                <li>
+                                    <a id="home-login"><i class="tiny material-icons left nav-icon">account_circle</i><span class="">Login</span></a>
+                                </li>
+                                <li>
+                                    <span><a id="home-cadastro" href="cadastro.html"><i class="tiny material-icons left nav-icon">assignment</i><span>cadastrar</span></a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+                <ul class="sidenav blue" id="show-on-large">
+                    <a href="#" data-target="show-on-large" class="left sidenav-close show-on-large side-nav-humb"><i class="material-icons">menu</i></a>
+                    <a href="#" class="brand-logo white-text">Logo</a>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="row">
+                <div class="col s12 xl8">
+                    <ul id="produtos-carrinho">
+                        <li>
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator">
+                                </div>
+                                <div class="card-content">
+                                    <p id="produto-nome"></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12 xl3 card-panel right">
+                    <form action="" class="card-content ">
+                        <div class="input-field">
+                            <label for=""><i class="left material-icons">local_shipping</i>CEP</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="">
+                            <label for="">Selecione o meio de tranporte</label>
+                            <select name="" id="select-transporte">
+                            <option value="">Rede Sul</option>
+                            <option value="">Correio</option>
+                            <option value="">Sedex</option>
+                        </select>
+                        </div>
+                        <div id="soma-total" class="text-blue">
+                            <p class="blue-text left">Total: R$00,00</p>
+                        </div>
+                        <button type="submit" class="btn waves-effect waves-light blue right">Finalizar Compra <i class="material-icons right">send</i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer blue">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Web 2</h5>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Bruno e Oilson
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

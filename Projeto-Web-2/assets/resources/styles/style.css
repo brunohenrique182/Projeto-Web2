@@ -1,0 +1,30 @@
+.logo-nav {
+    padding-left: 2em !important;
+}
+
+.user-area {
+    padding-right: 3em !important;
+}
+
+.content {
+    padding: 20px !important;
+    padding-top: 25px !important;
+}
+
+.nav-icon {
+    margin: 1px !important;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.login-pad {
+    padding-top: 20px !important;
+}
